@@ -1,5 +1,6 @@
 package com.example.message_ss;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +17,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
 
 
+        userIsLoggedIn();
         mPhoneNumber = findViewById(R.id.phoneNumber);
         mCode = findViewById(R.id.code);
         mSend = findViewById(R.id.send);
@@ -94,7 +97,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void userIsLoggedIn() {
-        
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if( user != null){
+            startActivity(new Intent(getApplicationContext(), MainPageActivity.class));
+            finish();
+            return;
+        }
     }
 
     private void startPhoneNumberVerification() {
