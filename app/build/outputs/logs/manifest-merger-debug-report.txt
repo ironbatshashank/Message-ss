@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:design:28.0.0] /home/shashank/.gradle/caches/transforms-2/files-2.1/d158b7d9f0d7a29085e8bafbd0b15898/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shashank/.gradle/caches/transforms-2/files-2.1/1b25a83b2bcc29da6e383c63d7a28664/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/shashank/.gradle/caches/transforms-2/files-2.1/d8c93b9efddf8c0a54927c8d8556d29a/AndroidManifest.xml:2:1-9:12
@@ -57,25 +57,25 @@ MERGED from [com.android.support:interpolator:28.0.0] /home/shashank/.gradle/cac
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/shashank/.gradle/caches/transforms-2/files-2.1/70e0571532d0c002f1728a4b13903411/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/shashank/.gradle/caches/transforms-2/files-2.1/f8605b712445be0b639151e4862b69db/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/shashank/.gradle/caches/transforms-2/files-2.1/044e649472eb2a24bf0faf4f72a6c0d0/AndroidManifest.xml:17:1-22:12
-INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml
 		INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml
-		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml
-		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:design:28.0.0] /home/shashank/.gradle/caches/transforms-2/files-2.1/d158b7d9f0d7a29085e8bafbd0b15898/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/shashank/.gradle/caches/transforms-2/files-2.1/d158b7d9f0d7a29085e8bafbd0b15898/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/shashank/.gradle/caches/transforms-2/files-2.1/d8c93b9efddf8c0a54927c8d8556d29a/AndroidManifest.xml:7:5-20
@@ -140,22 +140,26 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shashank/.gra
 		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.message_ss.MainPageActivity
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:12:9-63
+	android:name
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:12:19-51
 activity#com.example.message_ss.MainActivity
-ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:12:9-20:20
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:13:9-21:20
 	android:label
-		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:14:13-45
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:15:13-45
 	android:name
-		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:14:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/shashank/gok/Open source/Message-ss/app/src/main/AndroidManifest.xml

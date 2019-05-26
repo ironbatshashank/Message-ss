@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void userIsLoggedIn() {
+        
     }
 
     private void startPhoneNumberVerification() {
