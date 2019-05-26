@@ -11,6 +11,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseException;
+import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
@@ -19,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTextMessage;
     private EditText mPhoneNumber, mCode;
     private Button mSend;
+    private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
+
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -58,6 +62,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+            @Override
+            public void onVerificationCompleted(PhoneAuthCredential phoneAuthCredential) {
+
+            }
+
+            @Override
+            public void onVerificationFailed(FirebaseException e) {
+
+            }
+        };
+
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
@@ -66,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     private void startPhoneNumberVerification() {
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
                 mPhoneNumber.getText().toString(),
-                60,
+                 60,
                 TimeUnit.SECONDS,
                 this,
                 mCallbacks
