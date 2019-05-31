@@ -22,7 +22,7 @@ public class MainPageActivity extends AppCompatActivity {
         mFindUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ));
+                startActivity(new Intent(getApplicationContext(), FindUserActivity.class));
             }
         });
 
