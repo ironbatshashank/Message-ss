@@ -16,6 +16,16 @@ public class MainPageActivity extends AppCompatActivity {
 
 
         Button mLogout = findViewById(R.id.logout);
+        Button mFindUser = findViewById(R.id.finduser);
+
+
+        mFindUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ));
+            }
+        });
+
         mLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
