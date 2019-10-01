@@ -1,7 +1,7 @@
 # Message-ss
-This application is built by keeping in mind the needs of today's generation.
+This application is built only for security purposes.
 
-Nowdays many teens require the security for texting and sharing messages online.
+Security is an important factor regarding sharing of data across network.
 
 On this app anybody can securely share photos or videos, text anyone with security of no screenshots, self destruct messages.
 
